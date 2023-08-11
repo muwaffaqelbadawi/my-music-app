@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react";
 import "../CSS/Header.css";
 
-function Header() {
+const Header = () => {
   return (
-    <header className='header'>
-        <h1>This is whare the Flex name will go</h1>
+    <header className="header">
+      <h1>Flex Music Player</h1>
+      
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
